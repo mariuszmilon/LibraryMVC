@@ -1,0 +1,76 @@
+﻿@model LibraryMVC.Models.AddBookDto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>
+    Add a book
+</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group my-3">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Author" class="control-label"></label>
+                <input asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Publisher" class="control-label"></label>
+                <input asp-for="Publisher" class="form-control" />
+                <span asp-validation-for="Publisher" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Translation" class="control-label"></label>
+                <input asp-for="Translation" class="form-control" />
+                <span asp-validation-for="Translation" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="NumberOfPages" class="control-label"></label>
+                <input asp-for="NumberOfPages" class="form-control" />
+                <span asp-validation-for="NumberOfPages" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="DateOfPublication" class="control-label"></label>
+                <input asp-for="DateOfPublication" class="form-control" />
+                <span asp-validation-for="DateOfPublication" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="IDNumber" class="control-label"></label>
+                <input asp-for="IDNumber" class="form-control" />
+                <span asp-validation-for="IDNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input asp-for="File" type="file" id="uploadBox" class="form-control" />
+                <span asp-validation-for="File" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="NumberOfPiecesAvailable" class="control-label"></label>
+                <input asp-for="NumberOfPiecesAvailable" class="form-control" />
+                <span asp-validation-for="NumberOfPiecesAvailable" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId">
+                    <option disabled selected>Select the category</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3 d-flex justify-content-between">
+                <button class="btn btn-dark my-3 px-3 py-1">
+                    <a class="link-light text-decoration-none" asp-action="Index">Back to List</a>
+                </button>
+                <input type="submit" value="Create" class="btn btn-success my-3 px-4 py-1"/>
+            </div>
+        </form>
+    </div>
+</div>
+

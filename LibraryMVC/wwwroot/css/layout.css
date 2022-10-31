@@ -1,0 +1,16 @@
+.nav-item {
+   margin-right: 15px;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.register {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    margin-right: 60px;
+}
