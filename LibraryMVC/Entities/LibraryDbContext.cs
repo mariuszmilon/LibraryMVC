@@ -1,16 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using LibraryMVC.Models;
 
 namespace LibraryMVC.Entities
 {
-    public class LibraryDbContext : DbContext
+    public class LibraryDbContext : IdentityDbContext<User>
     {
         private readonly string _connectionString = "Server=(localdb)\\mssqllocaldb;Database=LibraryMVCDb;Trusted_Connection=True";
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Category>()
                 .HasData(

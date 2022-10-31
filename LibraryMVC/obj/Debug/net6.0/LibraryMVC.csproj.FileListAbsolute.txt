@@ -288,8 +288,6 @@ C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Component
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -378,8 +376,6 @@ C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSyste
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
-C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
 C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -2823,3 +2819,8 @@ C:\Users\Mariusz\Downloads\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\L
 C:\Users\Mariusz\Downloads\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\LibraryMVC\obj\Debug\net6.0\LibraryMVC.pdb
 C:\Users\Mariusz\Downloads\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\LibraryMVC\obj\Debug\net6.0\LibraryMVC.genruntimeconfig.cache
 C:\Users\Mariusz\Downloads\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\LibraryMVC-41c2a5c7236eac33cf13ed50fde179950c9603f8\LibraryMVC\obj\Debug\net6.0\ref\LibraryMVC.dll
+C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\C#\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

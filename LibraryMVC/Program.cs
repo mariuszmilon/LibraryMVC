@@ -6,7 +6,9 @@ using LibraryMVC.Middleware;
 using LibraryMVC.Models;
 using LibraryMVC.Models.Validators;
 using LibraryMVC.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using NLog.Web;
@@ -31,6 +33,10 @@ builder.Services.AddControllers().AddFluentValidation();
 builder.Services.AddScoped<IValidator<AddBookDto>, AddBookDtoValidator>();
 builder.Services.AddScoped<IValidator<EditBookDto>, EditBookDtoValidator>();
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
+builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<LibraryDbContext>();
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
 
 var app = builder.Build();
