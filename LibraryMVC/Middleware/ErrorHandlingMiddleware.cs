@@ -36,13 +36,13 @@ namespace LibraryMVC.Middleware
                 context.Response.StatusCode = 404;
                 await context.Response.WriteAsync(notFoundException.Message);
             }
-            catch(Exception exception)
-            {
-                _logger.LogError(exception, exception.Message);
+            //catch(Exception exception)
+            //{
+            //    _logger.LogError(exception, exception.Message);
 
-                context.Response.StatusCode = 500;
-                await context.Response.WriteAsync("Something went wrong!");
-            }
+            //    context.Response.StatusCode = 500;
+            //    await context.Response.WriteAsync("Something went wrong!");
+            //}
         }
     }
 }

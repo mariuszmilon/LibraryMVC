@@ -2,3 +2,9 @@
 {
 	<h2 class="alert-info">@TempData["Success"]</h2>
 }
+
+@if (TempData["Error"] != null)
+{
+		<h2 class="alert-info">@TempData["Error"]</h2>
+}
+

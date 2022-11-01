@@ -1,0 +1,28 @@
+﻿@model LibraryMVC.Models.LoginDto
+
+<hi>Login</hi>
+<partial name="_TempDataView" />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group my-3">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3 d-flex justify-content-between">
+                <button class="btn btn-dark my-3 px-3 py-1">
+                    <a class="link-light text-decoration-none" asp-controller="Book" asp-action="Index">Back to List</a>
+                </button>
+                <input type="submit" value="Log in" class="btn btn-success my-3 px-4 py-1"/>
+            </div>
+        </form>
+    </div>
+</div>
+ 

@@ -32,6 +32,8 @@ builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddControllers().AddFluentValidation();
 builder.Services.AddScoped<IValidator<AddBookDto>, AddBookDtoValidator>();
 builder.Services.AddScoped<IValidator<EditBookDto>, EditBookDtoValidator>();
+builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
+builder.Services.AddScoped<IValidator<RegisterDto>, RegisterDtoValidator>();
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
 builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<LibraryDbContext>();
 builder.Services.AddMemoryCache();
