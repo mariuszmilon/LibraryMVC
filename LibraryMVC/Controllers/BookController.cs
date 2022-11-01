@@ -113,7 +113,7 @@ namespace LibraryMVC.Controllers
                 var bookDto = _bookService.GetBookDtoById(id);
                 return View(bookDto);
             }
-            catch
+            catch(NotFoundException e)
             {
                 return RedirectToAction("NotFoundExceptionView");
             }

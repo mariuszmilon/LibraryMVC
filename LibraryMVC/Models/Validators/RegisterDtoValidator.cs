@@ -6,7 +6,7 @@ namespace LibraryMVC.Models.Validators
     {
         public RegisterDtoValidator()
         {
-            RuleFor(b => b.FirstName)
+            RuleFor(b => b.UserName)
                .NotEmpty()
                .WithMessage("First name is required.");
 
@@ -33,6 +33,26 @@ namespace LibraryMVC.Models.Validators
             RuleFor(a => a.Password)
                 .Equal(p => p.ConfirmPassword)
                 .WithMessage("The passwords are not the same.");
+
+            RuleFor(a => a.Street)
+                .NotEmpty()
+                .WithMessage("Street is required.");
+
+            RuleFor(a => a.City)
+                .NotEmpty()
+                .WithMessage("City is required.");
+
+            RuleFor(a => a.PostalCode)
+                .NotEmpty()
+                .WithMessage("Zip code is required.");
+
+            RuleFor(a => a.StreetNumber)
+                .NotEmpty()
+                .WithMessage("House number is required.");
+
+            RuleFor(a => a.StreetNumber)
+                .GreaterThan(0)
+                .WithMessage("House number must be greater than 0.");
         }
     }
 }

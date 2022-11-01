@@ -29,12 +29,13 @@ builder.Services.AddDbContext<LibraryDbContext>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddControllers().AddFluentValidation();
 builder.Services.AddScoped<IValidator<AddBookDto>, AddBookDtoValidator>();
 builder.Services.AddScoped<IValidator<EditBookDto>, EditBookDtoValidator>();
 builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
 builder.Services.AddScoped<IValidator<RegisterDto>, RegisterDtoValidator>();
-builder.Services.AddScoped<ErrorHandlingMiddleware>();
+//builder.Services.AddScoped<ErrorHandlingMiddleware>();
 builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<LibraryDbContext>();
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
@@ -51,12 +52,11 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-app.UseMiddleware<ErrorHandlingMiddleware>();
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
 
 app.UseRouting();
+//app.UseMiddleware<ErrorHandlingMiddleware>();
 
 app.UseAuthorization();
 app.MapControllerRoute(

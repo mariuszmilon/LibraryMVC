@@ -36,6 +36,18 @@ namespace LibraryMVC.Middleware
                 context.Response.StatusCode = 404;
                 await context.Response.WriteAsync(notFoundException.Message);
             }
+            catch(WrongEmailOrPassword wrongEmailOrPassword)
+            {
+                _logger.LogError(wrongEmailOrPassword, wrongEmailOrPassword.Message);
+
+                await context.Response.WriteAsync(wrongEmailOrPassword.Message);
+            }
+            catch (FailedRegistration failedRegistration)
+            {
+                _logger.LogError(failedRegistration, failedRegistration.Message);
+
+                await context.Response.WriteAsync(failedRegistration.Message);
+            }
             //catch(Exception exception)
             //{
             //    _logger.LogError(exception, exception.Message);
