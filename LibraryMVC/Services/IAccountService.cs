@@ -5,7 +5,7 @@ namespace LibraryMVC.Services
 {
     public interface IAccountService
     {
-        Task LogOut();
+        Task Logout();
         Task<Boolean> Login(LoginDto loginDto);
         Task<Boolean> Register(RegisterDto registerDto);
     }

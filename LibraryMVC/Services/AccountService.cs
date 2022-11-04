@@ -38,7 +38,7 @@ namespace LibraryMVC.Services
             return false;
         }
 
-        public async Task LogOut()
+        public async Task Logout()
         {
             await _signInManager.SignOutAsync();
         }
@@ -57,6 +57,7 @@ namespace LibraryMVC.Services
                 throw new FailedRegistration("Register is not completed!");
 
             await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+            await _signInManager.SignInAsync(newUser, false);
             return true;
         }
     }

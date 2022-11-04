@@ -89,9 +89,9 @@ namespace LibraryMVC.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> LogOut()
+        public async Task<IActionResult> Logout()
         {
-            await _accountService.LogOut();
+            await _accountService.Logout();
             return RedirectToAction("Index", "Book");
         }
 

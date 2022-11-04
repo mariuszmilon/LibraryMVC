@@ -53,6 +53,7 @@ namespace LibraryMVC.Controllers
         }
 
         // GET: Book/Create
+        [Authorize(Roles = "Admin, Employee")]
         public IActionResult Create()
         {
             ViewBag.CategoryId = _bookService.SelectListItem();
@@ -60,6 +61,7 @@ namespace LibraryMVC.Controllers
         }
 
         // POST: Book/Create
+        [Authorize(Roles = "Admin, Employee")]
         [HttpPost]
         public  IActionResult Create(AddBookDto dto)
         {
@@ -75,6 +77,7 @@ namespace LibraryMVC.Controllers
         }
 
         // GET: Book/Edit/5
+        [Authorize(Roles = "Admin, Employee")]
         public IActionResult Edit(int id)
         {
             ViewBag.CategoryId = _bookService.SelectListItem();
@@ -91,6 +94,7 @@ namespace LibraryMVC.Controllers
         }
 
         //POST: Book/Edit/5
+        [Authorize(Roles = "Admin, Employee")]
         [HttpPost]
         public IActionResult Edit(EditBookDto dto)
         {
@@ -106,6 +110,7 @@ namespace LibraryMVC.Controllers
         }
 
         // GET: Book/Delete/5
+        [Authorize(Roles = "Admin, Employee")]
         public IActionResult Delete(int id)
         {
             try
@@ -120,6 +125,7 @@ namespace LibraryMVC.Controllers
         }
 
         // POST: Book/Delete/5
+        [Authorize(Roles = "Admin, Employee")]
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {

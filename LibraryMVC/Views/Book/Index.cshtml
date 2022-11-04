@@ -5,11 +5,14 @@
 }
 
 <h1>Book Library</h1>
-<h4>Add or browse our books below</h4>
+<h4>Browse our books below</h4>
 <partial name="_TempDataView" />
-<button class="btn btn-dark my-3 ">
-    <a class="link-light text-decoration-none" asp-action="Create">Add a book</a>
- </button>
+@if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Employee"))){
+    <button class="btn btn-dark my-3 ">
+        <a class="link-light text-decoration-none" asp-action="Create">Add a book</a>
+    </button>
+}
+
 <table class="table">
     <thead>
         <tr>
@@ -22,18 +25,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
                     <a asp-action="Details" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Title)</a>
-            </td>
-            <td>
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Author)
-            </td>
-            <td>
+                </td>
+                <td>
                     <button class="btn btn-dark me-3 ms-5 py-1 px-3"><a class="link-light text-decoration-none" asp-action="Details" asp-route-id="@item.Id">Details</a> </button>
-                    <button class="btn btn-warning me-3 py-1 px-3"> <a class="link-light text-decoration-none" asp-action="Edit" asp-route-id="@item.Id">Edit</a></button>
-                    <button class="btn btn-danger py-1 px-3"><a class="link-light text-decoration-none" asp-action="Delete" asp-route-id="@item.Id">Delete</a></button>
+                    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Employee")))
+                    {
+                        <button class="btn btn-warning me-3 py-1 px-3"> <a class="link-light text-decoration-none" asp-action="Edit" asp-route-id="@item.Id">Edit</a></button>
+                        <button class="btn btn-danger py-1 px-3"><a class="link-light text-decoration-none" asp-action="Delete" asp-route-id="@item.Id">Delete</a></button>
+                    }
             </td>
         </tr>
 }

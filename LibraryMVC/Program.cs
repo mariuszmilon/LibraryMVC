@@ -57,7 +57,7 @@ app.UseHttpsRedirection();
 
 app.UseRouting();
 //app.UseMiddleware<ErrorHandlingMiddleware>();
-
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",

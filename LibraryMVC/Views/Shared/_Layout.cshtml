@@ -25,12 +25,21 @@
                         <li class="btn nav-item btn-dark">
                             <a class="nav-link text-light" asp-controller="Book" asp-action="Index">Library</a>
                         </li>
-                        <li class="btn nav-item btn-dark">
-                            <a class="nav-link text-light" asp-controller="Account" asp-action="Register">Register</a>
-                        </li>
-                        <li class="btn nav-item btn-dark">
-                            <a class="nav-link text-light" asp-controller="Account" asp-action="Login">Login</a>
-                        </li>
+                        @if(User.Identity.IsAuthenticated)
+                        {
+                            <form asp-controller="Account" asp-action="Logout">
+                                            <button class="btn btn-dark ">Logout</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <li class="btn nav-item btn-dark">
+                                <a class="nav-link text-light" asp-controller="Account" asp-action="Register">Register</a>
+                            </li>
+                            <li class="btn nav-item btn-dark">
+                                <a class="nav-link text-light" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
