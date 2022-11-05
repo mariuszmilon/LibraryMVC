@@ -125,3 +125,14 @@
 2022-11-05 18:32:23.0961||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
 2022-11-05 18:33:09.6122||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
 2022-11-05 18:41:24.7866||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 20:01:07.6565||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 20:33:57.0778||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 21:03:30.6847||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 21:03:44.3363||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 21:14:33.1423||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 21:14:47.5324||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 22:06:27.5260||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 22:06:33.0160||INFO|LibraryMVC.Services.BookService|GetBookDtoById function was invoked! 
+2022-11-05 22:07:22.8239||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 22:07:24.8303||INFO|LibraryMVC.Services.BookService|GetBookDtoById function was invoked! 
+2022-11-05 22:07:27.3996||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 

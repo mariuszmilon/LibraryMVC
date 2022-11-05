@@ -50,5 +50,31 @@ namespace LibraryMVC.Services
             return usersDto;
 
         }
+
+        public List<BorrowedBookDto> GetAllBooks(string id)
+        {
+            var user = _dBContext.Users.FirstOrDefault(a => a.Id == id);
+            var currentUserName = user.UserName;
+            var listOfBooks = _dBContext.BorrowedBooks.Where(a => a.UserName == currentUserName).ToList();
+            var listOfBooksDto = _mapper.Map<List<BorrowedBookDto>>(listOfBooks);
+            return listOfBooksDto;
+        }
+
+        public BorrowedBookDto Returning(int id)
+        {
+            var item = _dBContext.BorrowedBooks.FirstOrDefault(a => a.Id == id);
+            var itemDto = _mapper.Map<BorrowedBookDto>(item);
+            return itemDto;
+        }
+
+        public void ReturningConfirm(int id)
+        {
+            var borrowedBook = _dBContext.BorrowedBooks.FirstOrDefault(a => a.Id == id);
+            var book = _dBContext.Books.FirstOrDefault(a => a.Id == borrowedBook.BookId);
+            book.NumberOfPiecesAvailable = book.NumberOfPiecesAvailable + 1;
+            _dBContext.BorrowedBooks.Remove(borrowedBook);
+            _dBContext.Update(book);
+            _dBContext.SaveChanges();
+        }
     }
 }

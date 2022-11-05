@@ -4,6 +4,7 @@ namespace LibraryMVC.Models
 {
     public class BorrowedBookDto
     {
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
         public DateTime Start { get; set; }
