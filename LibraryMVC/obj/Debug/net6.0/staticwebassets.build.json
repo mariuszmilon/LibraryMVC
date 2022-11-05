@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V7kwQKXTTxFnJ4PG7UimHRa/KfzXoux9lvCkDP7LiJU=",
+  "Hash": "ftc+3ogb9TuhJW7Qute2w8ZbrNtpgfpH4fBcJ1ZvquY=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -134,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\books\\0923a3e0-85b4-42e3-bc1d-79562da3685f.png"
-    },
-    {
-      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\44fea772-3f14-4642-9d64-34ed584c7124.png",
-      "SourceId": "LibraryMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\",
-      "BasePath": "_content/LibraryMVC",
-      "RelativePath": "images/books/44fea772-3f14-4642-9d64-34ed584c7124.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\books\\44fea772-3f14-4642-9d64-34ed584c7124.png"
     },
     {
       "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png",

@@ -1,57 +1,39 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using LibraryMVC.Entities;
 using LibraryMVC.Models;
+using LibraryMVC.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation.Results;
 
 namespace LibraryMVC.Controllers
 {
     public class AdminController : Controller
     {
-        private readonly LibraryDbContext _dBContext;
-        private readonly UserManager<User> _userManager;
-        private readonly IMapper _mapper;
+        private readonly IAdminService _adminService;
+        private readonly IValidator<RoleDto> _roleValidator;
 
-        public AdminController(LibraryDbContext dBContext, UserManager<User> userManager, IMapper mapper)
+        public AdminController(IAdminService adminService, IValidator<RoleDto> roleValidator)
         {
-            _dBContext = dBContext;
-            _userManager = userManager;
-            _mapper = mapper;
+            _adminService = adminService;
+            _roleValidator = roleValidator;
         }
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
-            List<User> users = _dBContext
-                .Users
-                .AsNoTracking()
-                .ToList();
-
-            var usersDto = _mapper.Map<List<UserDto>>(users);
-
-            foreach(var item in users)
-            {
-                var roleList = await _userManager.GetRolesAsync(item);
-                var role = roleList[0];
-                var itemId = item.Id;
-                var singleUserDto = usersDto.FirstOrDefault(a => a.Id == itemId);
-                singleUserDto.Role = role;
-            }
-            usersDto.Remove(usersDto.FirstOrDefault(a => a.Role == "Admin"));
-
-            return View(usersDto);
+            var listofUsers = await _adminService.GetAllAsync();
+            return View(listofUsers);
         }
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> EditRole(string id)
         {
-            var user = await _userManager.FindByIdAsync(id);
-            RoleDto roleDto = new RoleDto() { Id = id};
-            var roleList = await _userManager.GetRolesAsync(user);
-            roleDto.Role = roleList[0];
+            var roleDto = await _adminService.GetRoleAsync(id);
             return View(roleDto);
         }
 
@@ -59,22 +41,13 @@ namespace LibraryMVC.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> EditRole(RoleDto dto)
         {
-            if (!ModelState.IsValid)
+            ValidationResult validResult = _roleValidator.Validate(dto);
+            if (!validResult.IsValid)
             {
-                return View("Edit", dto);
+                return View("EditRole", dto);
             }
-            var userRole = _dBContext
-                .Users
-                .FirstOrDefault(a => a.Id == dto.Id);
-            var userRoleId = _dBContext
-                .UserRoles
-                .FirstOrDefault(a => a.UserId == userRole.Id);
 
-            var userRoleString = _dBContext
-                .Roles
-                .FirstOrDefault(a => a.Id == userRoleId.RoleId);
-            await _userManager.RemoveFromRoleAsync(userRole, userRoleString.Name);
-            await _userManager.AddToRoleAsync(userRole, dto.Role);
+            await _adminService.EditRoleAsync(dto);
             return RedirectToAction("Index");
 
         }
@@ -82,10 +55,7 @@ namespace LibraryMVC.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(string id)
         {
-            var user = await _userManager.FindByIdAsync(id);
-            var userDto = _mapper.Map<UserDto>(user);
-            var role = await _userManager.GetRolesAsync(user);
-            userDto.Role = role[0];
+            var userDto = await _adminService.DeleteView(id);
             return View(userDto);
         }
 
@@ -93,13 +63,14 @@ namespace LibraryMVC.Controllers
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var user = await _userManager.FindByIdAsync(id);
-            var result = await _userManager.DeleteAsync(user);
-            if (result.Succeeded)
+
+            var result = await _adminService.DeleteConfirmed(id);
+            if(result)
             {
                 TempData["Success"] = "Successfully deleted!";
                 return RedirectToAction("Index");
             }
+            else
             TempData["Error"] = "Something went wrong!";
             return View();
         }
