@@ -21,6 +21,8 @@ namespace LibraryMVC
 
             CreateMap<UserDto, User>();
 
+            CreateMap<BorrowedBook, BorrowedBookDto>();
+
         }
     }
 }

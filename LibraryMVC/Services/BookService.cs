@@ -2,6 +2,7 @@
 using LibraryMVC.Entities;
 using LibraryMVC.Exceptions;
 using LibraryMVC.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
@@ -16,13 +17,15 @@ namespace LibraryMVC.Services
         private readonly IMapper _mapper;
         private readonly ILogger<BookService> _logger;
         private readonly IWebHostEnvironment _hostEnvironment;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public BookService(LibraryDbContext dBContext, IMapper mapper, ILogger<BookService> logger, IWebHostEnvironment hostEnvironment)
+        public BookService(LibraryDbContext dBContext, IMapper mapper, ILogger<BookService> logger, IWebHostEnvironment hostEnvironment, IHttpContextAccessor httpContextAccessor)
         {
             _dbContext = dBContext;
             _mapper = mapper;
             _logger = logger;
             _hostEnvironment = hostEnvironment;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public void Add(AddBookDto dto)
@@ -60,6 +63,7 @@ namespace LibraryMVC.Services
                 .Include(b => b.Category)
                 .AsNoTracking()
                 .ToList();
+
 
             var listOfBooksDto = _mapper.Map<List<BookDto>>(listOfBooks);
             return listOfBooksDto;
@@ -140,6 +144,26 @@ namespace LibraryMVC.Services
             }
 
                 _dbContext.Books.Remove(book);
+            _dbContext.SaveChanges();
+        }
+
+        public void Borrow(int id)
+        {
+            var book = _dbContext.Books.FirstOrDefault(a => a.Id==id);
+            book.NumberOfPiecesAvailable = book.NumberOfPiecesAvailable - 1;
+            var currentUser = _httpContextAccessor.HttpContext?.User;
+            var currentUserName = currentUser.Identity.Name;
+            BorrowedBook borrowedBook = new BorrowedBook()
+            {
+                BookId = book.Id,
+                Author = book.Author,
+                Title = book.Title,
+                UserName = currentUserName,
+                Start = DateTime.Now,
+                Stop = DateTime.Now.AddDays(30),
+            };
+            _dbContext.Update(book);
+            _dbContext.BorrowedBooks.Add(borrowedBook);
             _dbContext.SaveChanges();
         }
     }

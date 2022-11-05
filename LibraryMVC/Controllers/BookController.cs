@@ -38,6 +38,14 @@ namespace LibraryMVC.Controllers
             return View(listOfBooksDto);
         }
 
+        [HttpPost]
+        [Authorize(Roles = "User")]
+        public IActionResult Borrow(int id)
+        {
+            _bookService.Borrow(id);
+            return RedirectToAction("Index", "User");
+        }
+
         // GET: Book/Details/5
         public IActionResult Details(int id)
         {

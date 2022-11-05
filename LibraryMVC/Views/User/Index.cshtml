@@ -1,3 +1,43 @@
-﻿<h1>
-	My books
-</h1>
+﻿@model IEnumerable<LibraryMVC.Models.BorrowedBookDto>
+
+<h1>Book Library</h1>
+<h4>Browse our books below</h4>
+<partial name="_TempDataView" />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Author
+            </th>
+            <th>
+                Borrowed Start
+            </th>
+            <th>
+                Borrowed Stop
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Start)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Stop)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

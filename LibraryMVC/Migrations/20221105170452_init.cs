@@ -54,6 +54,24 @@ namespace LibraryMVC.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "BorrowedBooks",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    BookId = table.Column<int>(type: "int", nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Author = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Start = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Stop = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BorrowedBooks", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Categories",
                 columns: table => new
                 {
@@ -205,9 +223,9 @@ namespace LibraryMVC.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "0ccb3330-d8ce-4f03-a29b-8e00259447e2", "f8d92678-0af0-404f-99c5-ff69ae605f0e", "Admin", "Admin" },
-                    { "7132ef80-8cd3-437e-b0cb-570206beebae", "df37d2b7-2763-4aa6-86cb-5ddcc85534ba", "Employee", "EMPLOYEE" },
-                    { "9d7589f6-b296-4981-b012-fd3ac5c467b2", "1bd2a504-542c-4609-ab9d-0061a52954cf", "User", "USER" }
+                    { "40299598-faa3-4a3f-9697-5272a9cf3769", "d8459457-b866-46b7-90a1-9942a88606e1", "User", "USER" },
+                    { "904fd1ec-3afb-40d6-9c3f-dc5067517602", "23b2168a-c9d4-4343-a9b1-b76b3fb7b365", "Employee", "EMPLOYEE" },
+                    { "a69bb4b3-a903-444c-81ee-b2f3826d1799", "971a1bdc-3cbe-42a3-aab2-a3bf355891ff", "Admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -298,6 +316,9 @@ namespace LibraryMVC.Migrations
 
             migrationBuilder.DropTable(
                 name: "Books");
+
+            migrationBuilder.DropTable(
+                name: "BorrowedBooks");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

@@ -11,6 +11,7 @@ namespace LibraryMVC.Entities
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<BorrowedBook> BorrowedBooks { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -45,7 +46,7 @@ namespace LibraryMVC.Entities
             //modelBuilder.Entity<IdentityRole>().
             //    HasData(
             //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "Employee", NormalizedName = "EMPLOYEE", ConcurrencyStamp = Guid.NewGuid().ToString() },
-            //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "Admin", NormalizedName = "Admin", ConcurrencyStamp = Guid.NewGuid().ToString() },
+            //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "Admin", NormalizedName = "ADMIN", ConcurrencyStamp = Guid.NewGuid().ToString() },
             //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.NewGuid().ToString() });
 
         }

@@ -31,6 +31,7 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddControllers().AddFluentValidation();
 builder.Services.AddScoped<IValidator<AddBookDto>, AddBookDtoValidator>();
 builder.Services.AddScoped<IValidator<RoleDto>, RoleDtoValidator>();

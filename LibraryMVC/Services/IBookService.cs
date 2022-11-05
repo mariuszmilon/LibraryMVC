@@ -12,5 +12,6 @@ namespace LibraryMVC.Services
         EditBookDto GetBookDtoByIdEdit(int id);
         void Edit(EditBookDto dto);
         void Delete(int id);
+        void Borrow(int id);
     }
 }

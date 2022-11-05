@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryMVC.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20221105094651_init")]
+    [Migration("20221105170452_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,6 +67,37 @@ namespace LibraryMVC.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("LibraryMVC.Entities.BorrowedBook", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Author")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Start")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Stop")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BorrowedBooks");
                 });
 
             modelBuilder.Entity("LibraryMVC.Entities.Category", b =>
@@ -281,22 +312,22 @@ namespace LibraryMVC.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "7132ef80-8cd3-437e-b0cb-570206beebae",
-                            ConcurrencyStamp = "df37d2b7-2763-4aa6-86cb-5ddcc85534ba",
+                            Id = "904fd1ec-3afb-40d6-9c3f-dc5067517602",
+                            ConcurrencyStamp = "23b2168a-c9d4-4343-a9b1-b76b3fb7b365",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "0ccb3330-d8ce-4f03-a29b-8e00259447e2",
-                            ConcurrencyStamp = "f8d92678-0af0-404f-99c5-ff69ae605f0e",
+                            Id = "a69bb4b3-a903-444c-81ee-b2f3826d1799",
+                            ConcurrencyStamp = "971a1bdc-3cbe-42a3-aab2-a3bf355891ff",
                             Name = "Admin",
-                            NormalizedName = "Admin"
+                            NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "9d7589f6-b296-4981-b012-fd3ac5c467b2",
-                            ConcurrencyStamp = "1bd2a504-542c-4609-ab9d-0061a52954cf",
+                            Id = "40299598-faa3-4a3f-9697-5272a9cf3769",
+                            ConcurrencyStamp = "d8459457-b866-46b7-90a1-9942a88606e1",
                             Name = "User",
                             NormalizedName = "USER"
                         });

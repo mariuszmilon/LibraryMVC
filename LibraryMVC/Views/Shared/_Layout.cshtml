@@ -35,6 +35,7 @@
                             <li class="btn nav-item btn-dark">
                                 <a class="nav-link text-light" asp-controller="User" asp-action="Index">My books</a>
                             </li>   
+                            <h3> Hi @User.Identity.Name! </h3>
                         }
                         @if (User.Identity.IsAuthenticated)
                         {
