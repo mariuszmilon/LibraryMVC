@@ -121,3 +121,7 @@
 2022-11-05 18:13:06.2961||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
 2022-11-05 18:13:14.8088||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
 2022-11-05 18:13:28.0564||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 18:31:43.0159||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 18:32:23.0961||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 18:33:09.6122||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
+2022-11-05 18:41:24.7866||INFO|LibraryMVC.Services.BookService|GetAll function was invoked! 
