@@ -15,8 +15,11 @@ namespace LibraryMVC
             CreateMap<EditBookDto, Book>();
             CreateMap<Book, EditBookDto>();
 
-            CreateMap<RegisterDto, User>()
-                .ForMember(a => a.Address, c => c.MapFrom(s => new Address {  City = s.City, Street = s.Street, PostalCode = s.PostalCode, StreetNumber = s.StreetNumber }));
+            CreateMap<RegisterDto, User>();
+
+            CreateMap<User, UserDto>();
+
+            CreateMap<UserDto, User>();
 
         }
     }

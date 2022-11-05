@@ -66,9 +66,12 @@
                 <button class="btn btn-dark my-3 me-3 px-3 py-1">
                     <a class="link-light text-decoration-none" asp-action="Index">Back to List</a>
                 </button>
-                <button class="btn btn-warning py-1 px-4">
-                    <a class="link-light text-decoration-none" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
-                </button>
+                @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Employee")))
+                {
+                    <button class="btn btn-warning py-1 px-4">
+                        <a class="link-light text-decoration-none" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+                    </button>
+                }
             </div>
         </div>
         <div class="w-50">

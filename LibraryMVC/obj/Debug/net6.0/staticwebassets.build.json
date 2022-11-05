@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jhDCEsLHtHIP524VnFEbLBQBrinGyHKWaNPDTSA741M=",
+  "Hash": "V7kwQKXTTxFnJ4PG7UimHRa/KfzXoux9lvCkDP7LiJU=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\0923a3e0-85b4-42e3-bc1d-79562da3685f.png"
     },
     {
-      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\63f72690-a15a-4c08-aa8c-79412d5fe7dc.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\44fea772-3f14-4642-9d64-34ed584c7124.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
-      "RelativePath": "images/books/63f72690-a15a-4c08-aa8c-79412d5fe7dc.png",
+      "RelativePath": "images/books/44fea772-3f14-4642-9d64-34ed584c7124.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\books\\63f72690-a15a-4c08-aa8c-79412d5fe7dc.png"
+      "OriginalItemSpec": "wwwroot\\images\\books\\44fea772-3f14-4642-9d64-34ed584c7124.png"
+    },
+    {
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png"
     },
     {
       "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\824d5637-36c3-4e98-8cd0-d400b660494e.png",

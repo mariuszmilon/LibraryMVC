@@ -11,7 +11,6 @@ namespace LibraryMVC.Entities
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Address> Addresses { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

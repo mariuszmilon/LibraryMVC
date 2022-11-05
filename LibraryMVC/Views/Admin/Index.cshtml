@@ -1,0 +1,44 @@
+﻿@model IEnumerable<LibraryMVC.Models.UserDto>
+<h1>Hello admin</h1>
+<partial name="_TempDataView" />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                First name
+            </th>
+            <th>
+                Last name
+            </th>
+            <th>
+                Email adress
+            </th>
+            <th>
+                Role
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                        <td>
+                    @Html.DisplayFor(modelItem => item.Role)
+                        </td>
+                    <td>
+                        <button class="btn btn-warning me-3 py-1 px-3"> <a class="link-light text-decoration-none" asp-action="EditRole" asp-route-id="@item.Id">Edit role</a></button>
+                        <button class="btn btn-danger py-1 px-3"><a class="link-light text-decoration-none" asp-action="Delete" asp-route-id="@item.Id">Delete</a></button>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
