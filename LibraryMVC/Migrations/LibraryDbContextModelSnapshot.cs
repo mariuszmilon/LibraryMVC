@@ -310,22 +310,22 @@ namespace LibraryMVC.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "904fd1ec-3afb-40d6-9c3f-dc5067517602",
-                            ConcurrencyStamp = "23b2168a-c9d4-4343-a9b1-b76b3fb7b365",
+                            Id = "864cd614-adcd-46f1-9901-6317c8195d99",
+                            ConcurrencyStamp = "963aeb97-2bbd-47cf-8523-4c6138d80f30",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "a69bb4b3-a903-444c-81ee-b2f3826d1799",
-                            ConcurrencyStamp = "971a1bdc-3cbe-42a3-aab2-a3bf355891ff",
+                            Id = "390bf487-f2a1-42e6-be69-295b7095ffec",
+                            ConcurrencyStamp = "5fb4b543-9732-49b5-b40a-b44ec4049e47",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "40299598-faa3-4a3f-9697-5272a9cf3769",
-                            ConcurrencyStamp = "d8459457-b866-46b7-90a1-9942a88606e1",
+                            Id = "5433032b-e50b-4e8e-91a6-bb68eab0bb85",
+                            ConcurrencyStamp = "4a47fc78-38e3-4629-ab84-0a7db83e29a0",
                             Name = "User",
                             NormalizedName = "USER"
                         });

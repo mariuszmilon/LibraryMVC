@@ -80,7 +80,7 @@ namespace LibraryMVC.Controllers
                 return View("Create", dto);
             }
             _bookService.Add(dto);
-            TempData["Success"] = "Book was add successfully";
+            TempData["Success"] = "Book was added successfully";
             return RedirectToAction("Index");
         }
 
@@ -113,7 +113,7 @@ namespace LibraryMVC.Controllers
                 return View("Edit", dto);
             }
             _bookService.Edit(dto);
-            TempData["Success"] = "Book was edit successfully";
+            TempData["Success"] = "Book was edited successfully";
             return RedirectToAction("Index");
         }
 
@@ -138,7 +138,7 @@ namespace LibraryMVC.Controllers
         public IActionResult DeleteConfirmed(int id)
         {
             _bookService.Delete(id);
-            TempData["Success"] = "Book was delete successfully";
+            TempData["Success"] = "Book was deleted successfully";
             return RedirectToAction("Index");
         }
 

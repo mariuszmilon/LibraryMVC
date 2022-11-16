@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
 </head>
-<body style="background-color: #f5f7fa">
+<body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LibraryMVC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -19,45 +19,59 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="btn nav-item btn-dark">
-                            <a class="nav-link text-light" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="btn nav-item btn-dark">
-                            <a class="nav-link text-light" asp-controller="Book" asp-action="Index">Library</a>
-                        </li>
+                        <a class="nav-link text-light" asp-controller="Home" asp-action="Index">
+                            <li class="btn nav-item btn-dark">
+                                Home
+                            </li>
+                        </a>
+                        <a class="nav-link text-light" asp-controller="Book" asp-action="Index">
+                            <li class="btn nav-item btn-dark">
+                                Library
+                            </li>
+                        </a>
                         @if (User.Identity.IsAuthenticated && User.IsInRole("Admin")){
-                                <li class="btn nav-item btn-dark">
-                                    <a class="nav-link text-light" asp-controller="Admin" asp-action="Index">Admin</a>
+                            <a class="nav-link text-light ms-sm-auto" asp-controller="Admin" asp-action="Index">
+                                <li class="btn nav-item btn-primary ">
+                                       View all users
                                 </li>
+                            </a>
                         }
                         @if (User.Identity.IsAuthenticated && User.IsInRole("Employee"))
                         {
-                                    <li class="btn nav-item btn-dark">
-                                            <a class="nav-link text-light" asp-controller="Employee" asp-action="Index">Employee</a>
-                                    </li>
+                            <a class="nav-link text-light ms-sm-auto" asp-controller="Employee" asp-action="Index">
+                                <li class="btn nav-item btn-primary ">
+                                    View borrowed books
+                                </li>
+                            </a>
                         }
                         @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
                         {
-                            <li class="btn nav-item btn-dark">
-                                <a class="nav-link text-light" asp-controller="User" asp-action="Index">My books</a>
-                            </li>   
-                            <h3> Hi @User.Identity.Name! </h3>
+                            <h4 class="nav-item my-lg-0 d-xl-flex align-items-xl-center ms-sm-auto"> Hi @User.Identity.Name! </h4>
+                            <a class="nav-link text-light" asp-controller="User" asp-action="Index">
+                                <li class="btn nav-item btn-primary ">
+                                    View your books
+                                </li>
+                            </a>
                         }
                         @if (User.Identity.IsAuthenticated)
                         {
 
-                                    <form asp-controller="Account" asp-action="Logout">
-                                                    <button class="btn btn-dark ">Logout</button>
-                                    </form>
+                            <form asp-controller="Account" asp-action="Logout">
+                                    <button class="btn btn-danger">Logout</button>
+                            </form>
                         }
                         else
                         {
-                            <li class="btn nav-item btn-dark">
-                                <a class="nav-link text-light" asp-controller="Account" asp-action="Register">Register</a>
-                            </li>
-                            <li class="btn nav-item btn-dark">
-                                <a class="nav-link text-light" asp-controller="Account" asp-action="Login">Login</a>
-                            </li>
+                            <a class="nav-link text-light ms-sm-auto" asp-controller="Account" asp-action="Register">
+                                <li class="btn nav-item btn-primary">
+                                    Register
+                                </li>
+                            </a>
+                            <a class="nav-link text-light" asp-controller="Account" asp-action="Login">
+                                <li class="btn nav-item btn-success">
+                                    Login
+                                </li>
+                            </a>
                         }
                     </ul>
                 </div>

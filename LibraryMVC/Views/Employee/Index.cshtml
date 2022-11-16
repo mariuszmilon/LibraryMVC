@@ -1,15 +1,15 @@
 ﻿@model IEnumerable<LibraryMVC.Models.UserDto>
 
-<h1>Hello admin</h1>
+<h1>See all borrowed books below</h1>
 <partial name="_TempDataView" />
 <table class="table">
     <thead>
         <tr>
             <th>
-                First name
+                Name of borrower
             </th>
             <th>
-                Last name
+                Last name of borrower
             </th>
             <th>
                 Email adress
@@ -30,7 +30,7 @@
                     @Html.DisplayFor(modelItem => item.Email)
                         </td>
                         <td>
-                            <button class="btn btn-dark me-3 ms-5 py-1 px-3"><a class="link-light text-decoration-none" asp-action="Books" asp-route-id="@item.Id">Show books</a> </button>
+                            <button class="btn btn-dark me-3 ms-5 py-1 px-3"><a class="link-light text-decoration-none" asp-action="Books" asp-route-id="@item.Id">Show borrowed books</a> </button>
                         </td>
                     </tr>
         }

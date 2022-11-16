@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LibraryMVC",
+    "\\LibraryMVC\\Views",
+    "\\LibraryMVC\\Views\\Shared"
   ],
-  "SelectedNode": "\\LibraryMVC.sln",
+  "SelectedNode": "\\LibraryMVC\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

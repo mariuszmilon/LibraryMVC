@@ -4,9 +4,8 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Editing <i>"@Html.DisplayFor(model => model.Title)"</i></h1>
 
-<h4>Book</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,63 +13,64 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <input type="hidden" asp-for="ImageUrl" />
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="Author" class="control-label"></label>
                 <input asp-for="Author" class="form-control" />
                 <span asp-validation-for="Author" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="Publisher" class="control-label"></label>
                 <input asp-for="Publisher" class="form-control" />
                 <span asp-validation-for="Publisher" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="Translation" class="control-label"></label>
                 <input asp-for="Translation" class="form-control" />
                 <span asp-validation-for="Translation" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="NumberOfPages" class="control-label"></label>
                 <input asp-for="NumberOfPages" class="form-control" />
                 <span asp-validation-for="NumberOfPages" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="DateOfPublication" class="control-label"></label>
                 <input asp-for="DateOfPublication" class="form-control" />
                 <span asp-validation-for="DateOfPublication" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="IDNumber" class="control-label"></label>
                 <input asp-for="IDNumber" class="form-control" />
                 <span asp-validation-for="IDNumber" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="ImageUrl" class="control-label"></label>
                 <input asp-for="File" type="file" id="uploadBox" class="form-control" />
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="NumberOfPiecesAvailable" class="control-label"></label>
                 <input asp-for="NumberOfPiecesAvailable" class="form-control" />
                 <span asp-validation-for="NumberOfPiecesAvailable" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="CategoryId" class="control-label"></label>
                 <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group my-3 d-flex justify-content-between">
+                <a class="link-light text-decoration-none" asp-action="Index">
+                    <button class="btn btn-dark my-3 px-3 py-1">
+                        Back to List
+                    </button>
+                </a>
+                <input type="submit" value="Update Book" class="btn btn-success my-3 px-4 py-1" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 

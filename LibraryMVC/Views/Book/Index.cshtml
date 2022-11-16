@@ -34,11 +34,11 @@
                     @Html.DisplayFor(modelItem => item.Author)
                 </td>
                 <td>
-                    <button class="btn btn-dark me-3 ms-5 py-1 px-3"><a class="link-light text-decoration-none" asp-action="Details" asp-route-id="@item.Id">Details</a> </button>
+                   <a class="link-light text-decoration-none" asp-action="Details" asp-route-id="@item.Id"> <button class="btn btn-dark me-3 ms-5 py-1 px-3">Details </button></a>
                     @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Employee")))
                     {
-                        <button class="btn btn-warning me-3 py-1 px-3"> <a class="link-light text-decoration-none" asp-action="Edit" asp-route-id="@item.Id">Edit</a></button>
-                        <button class="btn btn-danger py-1 px-3"><a class="link-light text-decoration-none" asp-action="Delete" asp-route-id="@item.Id">Delete</a></button>
+                        <a class="link-light text-decoration-none" asp-action="Edit" asp-route-id="@item.Id"><button class="btn btn-warning me-3 py-1 px-3">Edit</button></a>
+                        <a class="link-light text-decoration-none" asp-action="Delete" asp-route-id="@item.Id"><button class="btn btn-danger py-1 px-3">Delete</button></a>
                     }
                 </td>
             </tr>

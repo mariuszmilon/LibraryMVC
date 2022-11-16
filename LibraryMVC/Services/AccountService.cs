@@ -56,7 +56,7 @@ namespace LibraryMVC.Services
             if (!newUserResponse.Succeeded)
                 throw new FailedRegistration("Register is not completed!");
 
-            await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+            await _userManager.AddToRoleAsync(newUser, UserRoles.Employee);
             await _signInManager.SignInAsync(newUser, false);
             return true;
         }
