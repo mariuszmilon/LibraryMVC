@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\LibraryMVC",
-    "\\LibraryMVC\\Views",
-    "\\LibraryMVC\\Views\\Shared"
+    "\\LibraryMVC\\Controllers",
+    "\\LibraryMVC\\Entities",
+    "\\LibraryMVC\\Views\\Book",
+    "\\LibraryMVC\\Views\\Employee"
   ],
-  "SelectedNode": "\\LibraryMVC\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\LibraryMVC\\Entities\\Book.cs",
   "PreviewInSolutionExplorer": false
 }

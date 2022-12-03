@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ez19/mMUABNLBzGC/ekKjcRWFr7VLit+4/GewErCPhQ=",
+  "Hash": "Yrnh/wi3Nb1g3dT2a763YHDmvZC6vLTW0ybl3ymacVo=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LibraryMVC\\wwwroot",
       "Source": "LibraryMVC",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LibraryMVC.styles.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LibraryMVC.styles.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "LibraryMVC.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Mariusz-net\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LibraryMVC.styles.css"
+      "OriginalItemSpec": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LibraryMVC.styles.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LibraryMVC.bundle.scp.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LibraryMVC.bundle.scp.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "LibraryMVC.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Mariusz-net\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LibraryMVC.bundle.scp.css"
+      "OriginalItemSpec": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LibraryMVC.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\css\\bootswatchTheme.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\bootswatchTheme.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "css/bootswatchTheme.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\css\\layout.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\layout.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "css/layout.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\layout.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\css\\site.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\css\\site.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\favicon.ico",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\favicon.ico",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\bg-texture.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\bg-texture.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/bg-texture.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg-texture.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\0923a3e0-85b4-42e3-bc1d-79562da3685f.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\0923a3e0-85b4-42e3-bc1d-79562da3685f.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/0923a3e0-85b4-42e3-bc1d-79562da3685f.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\0923a3e0-85b4-42e3-bc1d-79562da3685f.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\144eaec0-73c5-45f6-a51a-f85197789b7c.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\144eaec0-73c5-45f6-a51a-f85197789b7c.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/144eaec0-73c5-45f6-a51a-f85197789b7c.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\144eaec0-73c5-45f6-a51a-f85197789b7c.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\24c6801c-c7d7-45bb-aa3e-1ee2aaf48583.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\24c6801c-c7d7-45bb-aa3e-1ee2aaf48583.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/24c6801c-c7d7-45bb-aa3e-1ee2aaf48583.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\24c6801c-c7d7-45bb-aa3e-1ee2aaf48583.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\824d5637-36c3-4e98-8cd0-d400b660494e.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\824d5637-36c3-4e98-8cd0-d400b660494e.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/824d5637-36c3-4e98-8cd0-d400b660494e.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\824d5637-36c3-4e98-8cd0-d400b660494e.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\91292167-cdba-48a1-b20f-9e64ad74d4ce.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\91292167-cdba-48a1-b20f-9e64ad74d4ce.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/91292167-cdba-48a1-b20f-9e64ad74d4ce.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\91292167-cdba-48a1-b20f-9e64ad74d4ce.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\c2ebd827-dc70-414e-a9cf-5367e89ee916.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\c2ebd827-dc70-414e-a9cf-5367e89ee916.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/c2ebd827-dc70-414e-a9cf-5367e89ee916.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\c2ebd827-dc70-414e-a9cf-5367e89ee916.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\images\\books\\cf69099c-db7d-4161-a359-39d6e6fbd5bc.png",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\cf69099c-db7d-4161-a359-39d6e6fbd5bc.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "images/books/cf69099c-db7d-4161-a359-39d6e6fbd5bc.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\cf69099c-db7d-4161-a359-39d6e6fbd5bc.png"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\js\\site.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\js\\site.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mariusz-net\\LibraryMVC\\wwwroot\\",
+      "ContentRoot": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\wwwroot\\",
       "BasePath": "_content/LibraryMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

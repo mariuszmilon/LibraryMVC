@@ -3390,3 +3390,14 @@ D:\Mariusz-net\LibraryMVC\obj\Debug\net6.0\refint\LibraryMVC.dll
 D:\Mariusz-net\LibraryMVC\obj\Debug\net6.0\LibraryMVC.pdb
 D:\Mariusz-net\LibraryMVC\obj\Debug\net6.0\LibraryMVC.genruntimeconfig.cache
 D:\Mariusz-net\LibraryMVC\obj\Debug\net6.0\ref\LibraryMVC.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\obj\Debug\net6.0\staticwebassets\msbuild.LibraryMVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.LibraryMVC.props
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LibraryMVC.props
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LibraryMVC.props
+C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\obj\Debug\net6.0\staticwebassets.pack.json
