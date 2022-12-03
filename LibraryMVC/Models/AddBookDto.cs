@@ -1,5 +1,6 @@
 ﻿using LibraryMVC.Entities;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace LibraryMVC.Models
 {
@@ -12,6 +13,7 @@ namespace LibraryMVC.Models
         [DisplayName("Number of pages")]
         public int NumberOfPages { get; set; }
         [DisplayName("Date of publication")]
+        [DataType(DataType.Date)]
         public DateTime DateOfPublication { get; set; }
         [DisplayName("ID Number")]
         public string IDNumber { get; set; }
