@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace LibraryMVC.Migrations
 {
-    public partial class dupa : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -216,16 +216,6 @@ namespace LibraryMVC.Migrations
                         principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.InsertData(
-                table: "AspNetRoles",
-                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[,]
-                {
-                    { "390bf487-f2a1-42e6-be69-295b7095ffec", "5fb4b543-9732-49b5-b40a-b44ec4049e47", "Admin", "ADMIN" },
-                    { "5433032b-e50b-4e8e-91a6-bb68eab0bb85", "4a47fc78-38e3-4629-ab84-0a7db83e29a0", "User", "USER" },
-                    { "864cd614-adcd-46f1-9901-6317c8195d99", "963aeb97-2bbd-47cf-8523-4c6138d80f30", "Employee", "EMPLOYEE" }
                 });
 
             migrationBuilder.InsertData(

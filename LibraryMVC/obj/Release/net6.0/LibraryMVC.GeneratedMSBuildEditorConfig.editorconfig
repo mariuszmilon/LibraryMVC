@@ -9,101 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryMVC
 build_property.RootNamespace = LibraryMVC
-build_property.ProjectDir = C:\C#\LibraryMVC\LibraryMVC\LibraryMVC\
+build_property.ProjectDir = C:\Prwatne\LibraryMVC\LibraryMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\C#\LibraryMVC\LibraryMVC\LibraryMVC
+build_property.MSBuildProjectDirectory = C:\Prwatne\LibraryMVC\LibraryMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Account/Login.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Account/Register.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Admin/Delete.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Admin/EditRole.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Admin/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Admin/Index.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Book/Create.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Book/Delete.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Book/Details.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Book/Edit.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Book/Index.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Book/NotFoundExceptionView.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Book/NotFoundExceptionView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xOb3RGb3VuZEV4Y2VwdGlvblZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Employee/Books.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Employee/Books.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Employee/Index.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Employee/Returning.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Employee/Returning.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmV0dXJuaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Home/Index.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Home/Privacy.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Shared/Error.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Shared/_TempDataView.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Shared/_TempDataView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZW1wRGF0YVZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/User/Index.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/_ViewImports.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/_ViewStart.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/C\#/LibraryMVC/LibraryMVC/LibraryMVC/Views/Shared/_Layout.cshtml]
+[C:/Prwatne/LibraryMVC/LibraryMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nwjfw41hko

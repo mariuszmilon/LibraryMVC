@@ -43,12 +43,7 @@ namespace LibraryMVC.Entities
                 .WithMany(u => u.Books)
                 .HasForeignKey(r => r.CategoryId);
 
-            //modelBuilder.Entity<IdentityRole>().
-            //    HasData(
-            //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "Employee", NormalizedName = "EMPLOYEE", ConcurrencyStamp = Guid.NewGuid().ToString() },
-            //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "Admin", NormalizedName = "ADMIN", ConcurrencyStamp = Guid.NewGuid().ToString() },
-            //    new IdentityRole() { Id = Guid.NewGuid().ToString(), Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.NewGuid().ToString() });
-
+            
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

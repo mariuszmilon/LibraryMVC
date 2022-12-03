@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj": {}
+    "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj": {}
   },
   "projects": {
-    "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj": {
+    "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj",
+        "projectUniqueName": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj",
         "projectName": "LibraryMVC",
-        "projectPath": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj",
-        "packagesPath": "C:\\Users\\Mariusz\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\LibraryMVC\\LibraryMVC\\LibraryMVC\\obj\\",
+        "projectPath": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\LibraryMVC.csproj",
+        "packagesPath": "C:\\Users\\x1\\.nuget\\packages\\",
+        "outputPath": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mariusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\x1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

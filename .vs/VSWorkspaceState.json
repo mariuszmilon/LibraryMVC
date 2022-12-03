@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\LibraryMVC",
-    "\\LibraryMVC\\Controllers",
-    "\\LibraryMVC\\Entities",
-    "\\LibraryMVC\\Views\\Book",
-    "\\LibraryMVC\\Views\\Employee"
+    ""
   ],
-  "SelectedNode": "\\LibraryMVC\\Entities\\Book.cs",
   "PreviewInSolutionExplorer": false
 }

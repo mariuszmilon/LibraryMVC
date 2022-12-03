@@ -39,13 +39,14 @@ builder.Services.AddScoped<IValidator<RoleDto>, RoleDtoValidator>();
 builder.Services.AddScoped<IValidator<EditBookDto>, EditBookDtoValidator>();
 builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
 builder.Services.AddScoped<IValidator<RegisterDto>, RegisterDtoValidator>();
-//builder.Services.AddScoped<ErrorHandlingMiddleware>();
+builder.Services.AddScoped<Seeder>();
 builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<LibraryDbContext>();
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
-
+Seeder seeder = new Seeder(new LibraryDbContext());
+seeder.Seed();
 var app = builder.Build();
 
 app.UseStaticFiles();
