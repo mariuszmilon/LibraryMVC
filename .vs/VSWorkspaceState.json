@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LibraryMVC",
+    "\\LibraryMVC\\Services",
+    "\\LibraryMVC\\Views\\Shared"
   ],
+  "SelectedNode": "\\LibraryMVC\\Services\\AccountService.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -4,6 +4,7 @@ using LibraryMVC.Exceptions;
 using LibraryMVC.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LibraryMVC.Services
 {
@@ -12,15 +13,38 @@ namespace LibraryMVC.Services
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly IMapper _mapper;
-        public AccountService(UserManager<User> userManager, SignInManager<User> signInManager, IMapper mapper)
+        private readonly LibraryDbContext _dbContext;
+
+        public AccountService(UserManager<User> userManager, SignInManager<User> signInManager, IMapper mapper, LibraryDbContext dbContext)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _mapper = mapper;
+            _dbContext = dbContext;
         }
 
         public async Task<Boolean> Login(LoginDto loginDto)
         {
+            if (!_dbContext.Users.Any())
+            {
+                var adminUser = new User()
+                {
+                    UserName = "admin",
+                    Email = "admin@gmail.com",
+                    City = "gliwice",
+                    Street = "kujawska",
+                    StreetNumber = 2,
+                    LastName = "admin",
+                    PostalCode = "44-100"
+                };
+                var newUserResponse2 = await _userManager.CreateAsync(adminUser, "Admin123!");
+                if (newUserResponse2.Succeeded) 
+                {
+                    await _userManager.AddToRoleAsync(adminUser, UserRoles.Admin);
+                }
+
+            }
+
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
             if (user != null)
             {

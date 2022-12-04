@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\images\\books\\24c6801c-c7d7-45bb-aa3e-1ee2aaf48583.png"
     },
     {
+      "Id": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\3c664bf0-dc1d-41ea-9a69-08c941c0d739.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\3c664bf0-dc1d-41ea-9a69-08c941c0d739.jpg"
+    },
+    {
+      "Id": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\4014b89f-1e43-40a7-b3c4-e2131a125a16.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\4014b89f-1e43-40a7-b3c4-e2131a125a16.jpg"
+    },
+    {
       "Id": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
       "PackagePath": "staticwebassets\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png"
     },
@@ -55,6 +63,10 @@
     {
       "Id": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\cf69099c-db7d-4161-a359-39d6e6fbd5bc.png",
       "PackagePath": "staticwebassets\\images\\books\\cf69099c-db7d-4161-a359-39d6e6fbd5bc.png"
+    },
+    {
+      "Id": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\eaa45723-e73f-41d1-8fa7-4961ec4aee96.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\eaa45723-e73f-41d1-8fa7-4961ec4aee96.jpg"
     },
     {
       "Id": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\js\\site.js",

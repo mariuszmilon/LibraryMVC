@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3kQ9bdWyi8aFJdFao5bCttIZYJGAJSmfHLmi6S/LyVM=",
+  "Hash": "zM+SY03OmA5cahEfPMVmmHhifIUADMdJ1Iuj4GZPX5Q=",
   "Source": "LibraryMVC",
   "BasePath": "_content/LibraryMVC",
   "Mode": "Default",
@@ -187,6 +187,40 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\24c6801c-c7d7-45bb-aa3e-1ee2aaf48583.png"
     },
     {
+      "Identity": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\3c664bf0-dc1d-41ea-9a69-08c941c0d739.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/3c664bf0-dc1d-41ea-9a69-08c941c0d739.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\3c664bf0-dc1d-41ea-9a69-08c941c0d739.jpg"
+    },
+    {
+      "Identity": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\4014b89f-1e43-40a7-b3c4-e2131a125a16.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/4014b89f-1e43-40a7-b3c4-e2131a125a16.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\4014b89f-1e43-40a7-b3c4-e2131a125a16.jpg"
+    },
+    {
       "Identity": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\65b4ba63-6713-4a3c-988e-2b35f208fc55.png",
       "SourceId": "LibraryMVC",
       "SourceType": "Discovered",
@@ -270,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\books\\cf69099c-db7d-4161-a359-39d6e6fbd5bc.png"
+    },
+    {
+      "Identity": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\images\\books\\eaa45723-e73f-41d1-8fa7-4961ec4aee96.jpg",
+      "SourceId": "LibraryMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\",
+      "BasePath": "_content/LibraryMVC",
+      "RelativePath": "images/books/eaa45723-e73f-41d1-8fa7-4961ec4aee96.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\eaa45723-e73f-41d1-8fa7-4961ec4aee96.jpg"
     },
     {
       "Identity": "C:\\Prwatne\\LibraryMVC\\LibraryMVC\\wwwroot\\js\\site.js",
